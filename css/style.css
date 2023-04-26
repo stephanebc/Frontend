@@ -1,0 +1,43 @@
+* {
+    font-size: 16px;
+}
+
+.card {
+    justify-content: center;
+}
+
+.category, .card-text {
+    color: #aaaaaa;
+    font-family: sans-serif;
+}
+
+.card-title {
+    font-family: serif;
+    font-weight: bold;
+}
+
+.prices {
+    display: flex;
+    text-align: center;
+}
+
+.price {
+    color: #3d8168;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.line-price {
+    margin: 0.8rem 0 0 2rem;
+    text-decoration: line-through;
+    color: #aaaaaa;
+}
+
+h5, .price {
+    font-size: 2rem;
+}
+
+.btn {
+    width: 100%;
+    background-color: #3d8168;
+}
